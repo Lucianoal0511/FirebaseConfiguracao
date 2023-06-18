@@ -10,6 +10,7 @@
 		1C66C5712A3E584900B44A37 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 1C66C5702A3E584900B44A37 /* GoogleSignIn */; };
 		1C66C5732A3E584900B44A37 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1C66C5722A3E584900B44A37 /* GoogleSignInSwift */; };
 		1C66C5772A3E5D7A00B44A37 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66C5762A3E5D7A00B44A37 /* Utilities.swift */; };
+		1C66C5792A3F321000B44A37 /* SignInGoogleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66C5782A3F321000B44A37 /* SignInGoogleHelper.swift */; };
 		1CD369502A3D343F0049D435 /* FirebaseConfiguracaoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3694F2A3D343F0049D435 /* FirebaseConfiguracaoApp.swift */; };
 		1CD369522A3D343F0049D435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD369512A3D343F0049D435 /* ContentView.swift */; };
 		1CD369542A3D34410049D435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD369532A3D34410049D435 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		1C66C5742A3E590400B44A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1C66C5762A3E5D7A00B44A37 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1C66C5782A3F321000B44A37 /* SignInGoogleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInGoogleHelper.swift; sourceTree = "<group>"; };
 		1CD3694C2A3D343F0049D435 /* FirebaseConfiguracao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseConfiguracao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD3694F2A3D343F0049D435 /* FirebaseConfiguracaoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfiguracaoApp.swift; sourceTree = "<group>"; };
 		1CD369512A3D343F0049D435 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				1CD3696C2A3D41C30049D435 /* SignInEmailView.swift */,
 				1CD3696E2A3D503E0049D435 /* AuthenticationManager.swift */,
 				1CD369722A3D5DEF0049D435 /* SettingsView.swift */,
+				1C66C5782A3F321000B44A37 /* SignInGoogleHelper.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				1CD369522A3D343F0049D435 /* ContentView.swift in Sources */,
 				1CD369502A3D343F0049D435 /* FirebaseConfiguracaoApp.swift in Sources */,
 				1CD369712A3D59250049D435 /* RootView.swift in Sources */,
+				1C66C5792A3F321000B44A37 /* SignInGoogleHelper.swift in Sources */,
 				1CD3696B2A3D3EBA0049D435 /* AuthenticationView.swift in Sources */,
 				1CD3696F2A3D503E0049D435 /* AuthenticationManager.swift in Sources */,
 				1C66C5772A3E5D7A00B44A37 /* Utilities.swift in Sources */,
