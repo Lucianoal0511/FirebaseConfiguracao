@@ -1,2 +1,2 @@
 # FirebaseConfiguracao
-Mostra como pode pode comunicar uma aplicação Swift com o Firebase
+Mostra como comunicar uma aplicação Swift com o Firebase
